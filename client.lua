@@ -28,7 +28,7 @@ end)
 Citizen.CreateThread(function()
 
 	while true do
-		Citizen.Wait(10)
+		Citizen.Wait(1)
 		timpPayday(1.38, 1.43, 1.0,1.0,0.5, "~w~PAYDAY IN:~y~ "..minute..":"..secunde.."~w~ minute", 255, 255, 255, 255)
 	end
 end)
